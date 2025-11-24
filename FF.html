@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>سيغموند فرويد والتحليل النفسي - التقرير الكامل</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+<script type="text/javascript" src="https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FDv8kB_m3plHSOVnJzcr23vw0lF03Mu9D71YLCY2BD_8uofn006K-FevmOejXSZo3iIi_rb-nTDRrxD1NzFMxQDCPzkakXIBnsQjfuS85GIqqecveBkV5LVzWgGOZ3yoTyTFJLGlPf3CwAICu2G21vLkzYp0yQ92n7IhxMqu9oYkEk1bIRFtzxrBXIylLcqa1b5X2hfeGxI28n-HK-_7v8cAiOrjCAEtLXnaIIGVoNCnP5Rqrrq5dtqkw81lDSmMV4IU66f0cjlRnKkEHv3vog" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://ff.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvMTMzMTM1NjQ5NTE0MDQ4NzE2OS8xNDQyMjQyMTUzMDUyMTEwODk5L0ZGLmh0bWw_ZXg9NjkyNjA5YWMmaXM9NjkyNGI4MmMmaG09YTVhMTA1NjgyMWUxMzRlM2VhYzRkOTk4OGU4OTg0NGFlZjc2ZWRkMDE3MDFjYzllOWJjOThlZmY5ZmMyNDVjNyY"/><script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://picture-search.skywork.ai/aippt/static/tailwindcss.com"></script>
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #E6E6FA;
+            color: #1A1A1A;
+            margin: 0;
+            padding: 0;
+        }
+        .page {
+            width: 1280px;
+            height: 720px;
+            margin: 20px auto;
+            position: relative;
+            page-break-after: always;
+        }
+        .psycho-shape {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        .slide-container {
+            height: 100%;
+            padding: 40px;
+        }
+        .title {
+            color: #4B0082;
+            font-weight: bold;
+        }
+        .content-box {
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .info-card, .concept-item, .goal-card, .technique-card, .feature-card, .feature-box, .principle-card, .component-card, .example-card {
+            transition: transform 0.3s ease;
+        }
+        .info-card:hover, .goal-card:hover, .technique-card:hover, .feature-card:hover, .feature-box:hover, .principle-card:hover, .component-card:hover, .example-card:hover {
+            transform: translateY(-5px);
+        }
+        .concept-item:hover {
+            transform: scale(1.03);
+        }
+        .icon-circle, .icon-bg {
+            background-color: #4B0082;
+            height: 50px;
+            width: 50px;
+        }
+        .iceberg-container {
+            position: relative;
+            height: 300px;
+        }
+        .water {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(to bottom, #a3c2d5, #6e90a5);
+            border-radius: 10px;
+        }
+        .iceberg {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 240px;
+            height: 280px;
+            background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+            clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+        }
+        .consciousness {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 80px;
+            background: #ffffff;
+            z-index: 10;
+        }
+        .unconsciousness {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            background: #e0e0e0;
+            z-index: 5;
+        }
+        .brain-container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
+        .brain-half {
+            position: absolute;
+            width: 100px;
+            height: 160px;
+            border-radius: 100px 0 0 100px;
+            background: rgba(152, 251, 152, 0.6);
+        }
+        .brain-half.right {
+            right: 0;
+            transform: scaleX(-1);
+            background: rgba(230, 230, 250, 0.8);
+        }
+        .brain-connection {
+            position: absolute;
+            width: 20px;
+            height: 80px;
+            background: linear-gradient(90deg, rgba(152, 251, 152, 0.6), rgba(230, 230, 250, 0.8));
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+        .wavy-line {
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            background: repeating-linear-gradient(to right, #4B0082, #4B0082 5px, transparent 5px, transparent 10px);
+        }
+        .id-visual {
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            border-radius: 50%;
+        }
+        #id-animation {
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+        .ego-circle {
+            background: linear-gradient(135deg, #98FB98, #E6E6FA);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .ego-circle:hover {
+            transform: scale(1.05);
+        }
+        .ego-connector {
+            border-top: 3px dashed #4B0082;
+        }
+        .superego-container {
+            position: relative;
+            height: 160px;
+        }
+        .icon-container {
+            background-color: #98FB98;
+            height: 50px;
+            width: 50px;
+        }
+        .title-underline {
+            background: linear-gradient(90deg, #4B0082, #98FB98);
+        }
+        #interaction-diagram {
+            height: 220px;
+            position: relative;
+        }
+        .conflict-arrow {
+            position: absolute;
+            color: #4B0082;
+            font-size: 24px;
+        }
+        .connection-line {
+            position: absolute;
+            background-color: rgba(75, 0, 130, 0.5);
+            transform-origin: 0 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page 1: Title Page -->
+<div class="page">
+<div class="w-[1280px] h-[720px] relative bg-gradient-to-b from-[#E6E6FA] to-[#98FB98]">
+<!-- Abstract shapes representing layers of consciousness -->
+<div class="absolute inset-0 opacity-20">
+<div class="absolute rounded-full w-[600px] min-h-[600px] bg-purple-300 top-[300px] right-[-200px]"></div>
+<div class="absolute rounded-full w-[400px] min-h-[400px] bg-green-200 bottom-[-100px] left-[200px]"></div>
+<div class="absolute rounded-full w-[300px] min-h-[300px] bg-purple-200 top-[-50px] left-[100px]"></div>
+</div>
+<!-- Animated shape representing psychoanalysis -->
+<div class="psycho-shape absolute w-full h-full flex justify-center items-center pointer-events-none">
+<div class="w-[500px] min-h-[500px] rounded-full bg-gradient-to-br from-purple-100 to-green-100 opacity-40"></div>
+</div>
+<!-- Content container -->
+<div class="relative z-10 w-full h-full flex flex-col justify-center items-center p-16 text-center">
+<h1 class="text-6xl font-bold mb-8 text-[#1A1A1A] leading-tight">سيغموند فرويد والتحليل النفسي</h1>
+<div class="w-24 h-1 bg-[#1A1A1A] my-6"></div>
+<div class="text-2xl text-[#1A1A1A] mb-8 max-w-3xl">
+<p class="mb-4">من هو فرويد؟ ما المقصود بالتحليل النفسي؟</p>
+<p>ما معنى اللاشعور وما مكوّنات الجهاز النفسي؟</p>
+</div>
+<div class="w-16 h-1 bg-[#1A1A1A] my-6"></div>
+<div class="mt-12 text-lg text-[#1A1A1A] opacity-80">
+<p>تاريخ التقرير: ٢٣ نوفمبر ٢٠٢٥</p>
+</div>
+</div>
+<!-- Bottom decorative element -->
+<div class="absolute bottom-0 w-full h-16 bg-gradient-to-t from-purple-300 to-transparent opacity-30"></div>
+</div>
+</div>
+
+<!-- Page 2: Who is Sigmund Freud? -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-8">
+<h1 class="title text-4xl text-center mb-2">من هو سيغموند فرويد؟</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex flex-col">
+<!-- Main Definition -->
+<div class="content-box p-6 mb-8">
+<p class="text-xl leading-relaxed">
+<span class="font-bold text-2xl text-purple-900">سيغموند فرويد (١٨٥٦-١٩٣٩)</span> هو طبيب أعصاب نمساوي يُعد الأب المؤسس لمدرسة التحليل النفسي، وهي منهج ثوري لفهم العقل البشري وعلاج الاضطرابات النفسية.
+                </p>
+</div>
+<!-- Key Contributions Cards -->
+<div class="grid grid-cols-3 gap-6 mb-4">
+<!-- Card 1 -->
+<div class="info-card rounded-lg p-5 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-4">
+<i class="fas fa-brain text-white text-2xl"></i>
+</div>
+<h3 class="font-bold text-xl mb-2">نظريات ثورية</h3>
+<p>ركز على اللاوعي والدوافع الغريزية وتجارب الطفولة المبكرة</p>
+</div>
+<!-- Card 2 -->
+<div class="info-card rounded-lg p-5 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-4">
+<i class="fas fa-book-medical text-white text-2xl"></i>
+</div>
+<h3 class="font-bold text-xl mb-2">تأثير علمي</h3>
+<p>أحدث تحولًا جذريًا في علم النفس والطب النفسي خلال القرن العشرين</p>
+</div>
+<!-- Card 3 -->
+<div class="info-card rounded-lg p-5 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-4">
+<i class="fas fa-paint-brush text-white text-2xl"></i>
+</div>
+<h3 class="font-bold text-xl mb-2">تأثير ثقافي</h3>
+<p>أثر بشكل عميق في الفلسفة والأدب والفن والثقافة بشكل عام</p>
+</div>
+</div>
+<!-- Quote -->
+<div class="quote pr-4 pl-6 py-3 mt-4 italic text-gray-700 bg-white bg-opacity-50 rounded" style="border-right: 4px solid #4B0082;">
+<p class="text-lg">يُعتبر فرويد من أكثر المفكرين تأثيراً في القرن العشرين، وغيّرت نظرياته فهمنا للعقل البشري بشكل جذري.</p>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-right mt-4">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٢/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 3: What is Psychoanalysis? -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-6">
+<h1 class="title text-4xl text-center mb-2">ما المقصود بالتحليل النفسي؟</h1>
+<div class="w-40 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Definition -->
+<div class="content-box p-6 mb-6">
+<p class="text-xl leading-relaxed">
+                التحليل النفسي هو مجموعة من النظريات النفسية وطريقة علاجية تهدف إلى استكشاف الدوافع اللاواعية التي تشكل أفكار الفرد ومشاعره وسلوكياته. يركز هذا المنهج على الصراعات الداخلية وتجارب الطفولة المبكرة، معتبرًا إياها عوامل أساسية في تشكيل الشخصية وتطور الاضطرابات النفسية.
+            </p>
+</div>
+<!-- Visualization Section -->
+<div class="flex justify-center mb-8">
+<div class="brain-container">
+<div class="brain-half left"></div>
+<div class="brain-half right"></div>
+<div class="brain-connection"></div>
+<div class="wavy-line" style="top: 40px;"></div>
+<div class="wavy-line" style="top: 80px;"></div>
+<div class="wavy-line" style="top: 120px;"></div>
+<div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+<span class="text-purple-800 font-bold text-lg">العقل البشري</span>
+</div>
+</div>
+</div>
+<!-- Key Concepts -->
+<div class="flex justify-between space-x-4 space-x-reverse">
+<!-- Concept 1 -->
+<div class="concept-item rounded-lg p-4 flex items-start w-1/3 shadow-md" style="background-color: #98FB98;">
+<div class="icon-bg rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-lightbulb text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">نظريات نفسية</h3>
+<p>إطار نظري لفهم العقل البشري وديناميكياته الداخلية</p>
+</div>
+</div>
+<!-- Concept 2 -->
+<div class="concept-item rounded-lg p-4 flex items-start w-1/3 shadow-md" style="background-color: #98FB98;">
+<div class="icon-bg rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-user-md text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">طريقة علاجية</h3>
+<p>منهج لعلاج الاضطرابات النفسية من خلال استكشاف اللاوعي</p>
+</div>
+</div>
+<!-- Concept 3 -->
+<div class="concept-item rounded-lg p-4 flex items-start w-1/3 shadow-md" style="background-color: #98FB98;">
+<div class="icon-bg rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-child text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">تجارب الطفولة</h3>
+<p>تأثير الخبرات المبكرة على تشكيل الشخصية والسلوك</p>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-right mt-auto pt-4" style="visibility: hidden;">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٣/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 4: Goals and Methods -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-6">
+<h1 class="title text-4xl text-center mb-2">أهداف ومنهج التحليل النفسي</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex flex-col">
+<!-- Goals Section -->
+<div class="mb-6">
+<h2 class="text-2xl font-bold mb-4 text-purple-900 flex items-center">
+<i class="fas fa-bullseye mr-2"></i> أهداف العلاج بالتحليل النفسي
+                </h2>
+<div class="grid grid-cols-3 gap-4">
+<!-- Goal 1 -->
+<div class="goal-card p-4 shadow-md flex flex-col items-center text-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-3">
+<i class="fas fa-lightbulb text-white text-xl"></i>
+</div>
+<h3 class="font-bold text-lg mb-2">جعل اللاواعي واعيًا</h3>
+<p>مساعدة الفرد على فهم الدوافع والرغبات والصراعات المكبوتة في اللاوعي</p>
+</div>
+<!-- Goal 2 -->
+<div class="goal-card p-4 shadow-md flex flex-col items-center text-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-3">
+<i class="fas fa-unlock text-white text-xl"></i>
+</div>
+<h3 class="font-bold text-lg mb-2">تحرير المريض من الصراعات المكبوتة</h3>
+<p>الوعي بالصراعات يمكّن المريض من التعامل معها وحلها، مما يؤدي إلى تخفيف الأعراض النفسية</p>
+</div>
+<!-- Goal 3 -->
+<div class="goal-card p-4 shadow-md flex flex-col items-center text-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-3">
+<i class="fas fa-puzzle-piece text-white text-xl"></i>
+</div>
+<h3 class="font-bold text-lg mb-2">إعادة بناء الشخصية</h3>
+<p>العمل على فهم التجارب الماضية وتأثيرها على الحاضر، مما يساعد على إعادة تنظيم الشخصية</p>
+</div>
+</div>
+</div>
+<!-- Techniques Section -->
+<div>
+<h2 class="text-2xl font-bold mb-4 text-purple-900 flex items-center">
+<i class="fas fa-tools mr-2"></i> تقنيات التحليل النفسي
+                </h2>
+<div class="grid grid-cols-3 gap-4">
+<!-- Technique 1 -->
+<div class="technique-card p-4 shadow-md" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="flex items-center mb-3">
+<i class="fas fa-comment-dots text-purple-800 text-2xl ml-3"></i>
+<h3 class="font-bold text-lg">التداعي الحر</h3>
+</div>
+<p>تشجيع المريض على التعبير عن أي أفكار أو مشاعر تخطر بباله دون رقابة أو حكم، مما يكشف عن الروابط اللاواعية</p>
+</div>
+<!-- Technique 2 -->
+<div class="technique-card p-4 shadow-md" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="flex items-center mb-3">
+<i class="fas fa-cloud-moon text-purple-800 text-2xl ml-3"></i>
+<h3 class="font-bold text-lg">تفسير الأحلام</h3>
+</div>
+<p>تحليل محتوى الأحلام (الظاهر والكامن) لفهم الرغبات والصراعات اللاواعية التي تعبر عنها</p>
+</div>
+<!-- Technique 3 -->
+<div class="technique-card p-4 shadow-md" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="flex items-center mb-3">
+<i class="fas fa-shield-alt text-purple-800 text-2xl ml-3"></i>
+<h3 class="font-bold text-lg">تحليل المقاومة والتحويل</h3>
+</div>
+<p>دراسة مقاومة المريض لبعض الأفكار أو المشاعر، وتحليل كيفية نقل المريض لمشاعره وعلاقاته الماضية إلى المعالج</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-left mt-4">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٤/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 5: What is the Unconscious? -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-6">
+<h1 class="title text-4xl text-center mb-2">ما معنى اللاشعور؟</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex">
+<!-- Left Side - Definition and Features -->
+<div class="w-1/2 pl-4">
+<!-- Definition -->
+<div class="content-box p-5 mb-6">
+<h2 class="text-2xl font-bold mb-3 text-purple-900">تعريف اللاشعور</h2>
+<p class="text-lg leading-relaxed">
+                        اللاشعور هو الجزء الأكبر والأعمق من العقل، ويحتوي على مجموعة واسعة من الأفكار، الرغبات، الذكريات، والغرائز المكبوتة التي لا يمكن الوصول إليها بسهولة في الوعي، ولكنها تؤثر بشكل كبير على سلوكنا الواعي ومشاعره.
+                    </p>
+<p class="text-sm mt-2 text-gray-600">فرويد، ١٩١٥</p>
+</div>
+<!-- Features -->
+<div class="grid grid-cols-2 gap-4">
+<div class="feature-card rounded-lg p-4 flex items-start shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-lock text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">مكبوت</h3>
+<p class="text-sm">يحتوي على مواد مكبوتة بعيدة عن الوعي</p>
+</div>
+</div>
+<div class="feature-card rounded-lg p-4 flex items-start shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-bolt text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">مؤثر</h3>
+<p class="text-sm">يؤثر بقوة على سلوكنا وقراراتنا</p>
+</div>
+</div>
+<div class="feature-card rounded-lg p-4 flex items-start shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-child text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">تكويني</h3>
+<p class="text-sm">يتشكل من تجارب الطفولة المبكرة</p>
+</div>
+</div>
+<div class="feature-card rounded-lg p-4 flex items-start shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-3 flex-shrink-0">
+<i class="fas fa-puzzle-piece text-white text-xl"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg mb-1">معقد</h3>
+<p class="text-sm">يتضمن رغبات متناقضة وصراعات داخلية</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Side - Iceberg Metaphor -->
+<div class="w-1/2 flex flex-col items-center justify-center">
+<h2 class="text-2xl font-bold mb-4 text-purple-900">استعارة جبل الجليد</h2>
+<div class="iceberg-container w-full">
+<!-- Water -->
+<div class="water">
+<div class="absolute top-20 right-20 text-white font-bold">البحر</div>
+</div>
+<!-- Iceberg -->
+<div class="iceberg"></div>
+<!-- Labels -->
+<div class="absolute top-24 left-1/2 transform -translate-x-1/2 bg-white px-3 py-1 rounded-lg shadow-md">
+<span class="font-bold">الوعي</span>
+<span class="text-sm block text-gray-600">(الجزء الظاهر)</span>
+</div>
+<div class="absolute bottom-24 left-1/2 transform -translate-x-1/2 bg-white px-3 py-1 rounded-lg shadow-md">
+<span class="font-bold">اللاوعي</span>
+<span class="text-sm block text-gray-600">(الجزء المغمور الأكبر)</span>
+</div>
+</div>
+<div class="content-box p-4 mt-4 text-center w-4/5">
+<p class="text-lg">
+                        يشبه العقل البشري جبل الجليد؛ الجزء الظاهر يمثل الوعي، بينما يمثل الجزء الأكبر المغمور اللاشعور
+                    </p>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-right mt-4">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٥/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 6: Unconscious in Daily Life -->
+<div class="page">
+<div class="p-8 h-full flex flex-col" style="background-color: #E6E6FA; overflow: hidden; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-4 text-center">
+<h1 class="text-4xl font-bold text-purple-900">تأثير اللاشعور في الحياة اليومية</h1>
+<div class="title-underline h-1.5 w-96 mx-auto mt-2 rounded-full"></div>
+</div>
+<!-- Introduction -->
+<div class="mb-3 text-xl">
+<p class="bg-white bg-opacity-70 p-3 rounded-lg shadow-sm">
+                تظهر محتويات اللاشعور في حياتنا اليومية بطرق متعددة، مما يكشف عن رغبات وصراعات مكبوتة.
+            </p>
+</div>
+<!-- Examples Section -->
+<div class="flex-grow grid grid-cols-1 gap-2">
+<!-- Example 1: Freudian Slips -->
+<div class="example-card p-3 rounded-lg shadow-md flex items-center" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="icon-container rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-comment-dots text-purple-900 text-xl"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-purple-800">زلات اللسان (الفرويدية)</h3>
+<p>الأخطاء غير المقصودة في الكلام التي تكشف عن أفكار لاواعية.</p>
+</div>
+</div>
+<!-- Example 2: Dreams -->
+<div class="example-card p-3 rounded-lg shadow-md flex items-center" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="icon-container rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-moon text-purple-900 text-xl"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-purple-800">الأحلام</h3>
+<p>الأحلام هي "الطريق الملكي إلى اللاشعور"، حيث تُعبر الرغبات المكبوتة عن نفسها.</p>
+</div>
+</div>
+<!-- Example 3: Jokes -->
+<div class="example-card p-3 rounded-lg shadow-md flex items-center" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="icon-container rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-laugh text-purple-900 text-xl"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-purple-800">النكات</h3>
+<p>يمكن أن تكون النكات وسيلة للتعبير عن رغبات مكبوتة بطريقة مقبولة.</p>
+</div>
+</div>
+<!-- Example 4: Partner Selection -->
+<div class="example-card p-3 rounded-lg shadow-md flex items-center" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="icon-container rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-heart text-purple-900 text-xl"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-purple-800">اختيار الشريك</h3>
+<p>قد تتأثر اختياراتنا العاطفية برغبات لاواعية أو تجارب طفولية.</p>
+</div>
+</div>
+<!-- Example 5: Psychological Symptoms -->
+<div class="example-card p-3 rounded-lg shadow-md flex items-center" style="background-color: rgba(255, 255, 255, 0.85); border-right: 4px solid #4B0082;">
+<div class="icon-container rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-brain text-purple-900 text-xl"></i>
+</div>
+<div>
+<h3 class="text-xl font-bold text-purple-800">الأعراض النفسية</h3>
+<p>مثل القلق والاكتئاب، والتي يرى فرويد أنها تعبيرات رمزية عن صراعات لاواعية.</p>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="mt-2 text-left">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٦/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 7: The Id -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-6">
+<h1 class="title text-4xl text-center mb-2">مكونات الجهاز النفسي - الهو</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex">
+<!-- Left Column - Main Definition -->
+<div class="w-1/2 pl-6">
+<div class="content-box p-6 mb-6">
+<h2 class="text-2xl font-bold mb-4 text-purple-900">ما هو الهو (Id)؟</h2>
+<p class="text-xl leading-relaxed mb-4">
+                        الهو هو الجزء البدائي واللاواعي من الشخصية، ويعتبر خزانًا للطاقة النفسية.
+                    </p>
+<p class="text-xl leading-relaxed">
+                        يعمل الهو وفقًا لمبدأ اللذة، ويسعى للإشباع الفوري للغرائز والاحتياجات الأساسية مثل الجوع والعطش والجنس والعدوانية، دون اعتبار للواقع أو الأخلاق.
+                    </p>
+</div>
+<!-- Visual Representation of Id -->
+<div class="mx-auto" id="id-animation">
+<div class="id-visual w-full h-full flex items-center justify-center">
+<i class="fas fa-fire text-white text-6xl"></i>
+</div>
+</div>
+</div>
+<!-- Right Column - Characteristics -->
+<div class="w-1/2 pr-6">
+<h3 class="text-2xl font-bold mb-4 text-center">خصائص الهو</h3>
+<!-- Characteristics Cards -->
+<div class="space-y-4">
+<!-- Characteristic 1 -->
+<div class="feature-box p-4 flex items-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-bolt text-white text-xl"></i>
+</div>
+<div>
+<h4 class="font-bold text-lg">بدائي وغريزي</h4>
+<p>موجود منذ الولادة ويحتوي على جميع الدوافع الغريزية</p>
+</div>
+</div>
+<!-- Characteristic 2 -->
+<div class="feature-box p-4 flex items-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-heart text-white text-xl"></i>
+</div>
+<div>
+<h4 class="font-bold text-lg">مبدأ اللذة</h4>
+<p>يسعى للإشباع الفوري والمتعة وتجنب الألم</p>
+</div>
+</div>
+<!-- Characteristic 3 -->
+<div class="feature-box p-4 flex items-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-cloud text-white text-xl"></i>
+</div>
+<div>
+<h4 class="font-bold text-lg">لا واعي</h4>
+<p>يعمل بشكل كامل في منطقة اللاوعي</p>
+</div>
+</div>
+<!-- Characteristic 4 -->
+<div class="feature-box p-4 flex items-center" style="background-color: #98FB98; border-radius: 12px;">
+<div class="icon-circle rounded-full flex items-center justify-center ml-4">
+<i class="fas fa-ban text-white text-xl"></i>
+</div>
+<div>
+<h4 class="font-bold text-lg">تجاهل الواقع</h4>
+<p>لا يراعي الواقع أو المنطق أو القيم الأخلاقية</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-right mt-4">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٧/١٠</span>
+</div>
+</div>
+<script>
+        // Simple pulsing animation for the Id visualization
+        const idVisual = document.querySelectorAll('.id-visual')[0];
+        if (idVisual) {
+            let scale = 1;
+            let growing = true;
+            
+            setInterval(() => {
+                if (growing) {
+                    scale += 0.01;
+                    if (scale >= 1.1) growing = false;
+                } else {
+                    scale -= 0.01;
+                    if (scale <= 0.9) growing = true;
+                }
+                
+                idVisual.style.transform = `scale(${scale})`;
+            }, 50);
+        }
+    </script>
+</div>
+
+<!-- Page 8: The Ego -->
+<div class="page">
+<div class="w-[1280px] h-[720px] p-10 flex flex-col" style="background-color: #E6E6FA;">
+<!-- Title Section -->
+<div class="mb-8 text-center">
+<h1 class="text-4xl font-bold text-purple-900">مكونات الجهاز النفسي - الأنا</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto mt-2"></div>
+</div>
+<!-- Main Content Area -->
+<div class="flex flex-grow">
+<!-- Left Side: Visual Representation -->
+<div class="w-1/2 flex items-center justify-center relative">
+<div class="relative w-full h-96">
+<!-- Id Representation -->
+<div class="absolute top-0 right-10 w-48 h-48 rounded-full bg-red-200 flex items-center justify-center shadow-lg">
+<div class="text-center">
+<i class="fas fa-fire text-red-500 text-3xl mb-2"></i>
+<p class="font-bold text-xl">الهو</p>
+<p class="text-sm">الرغبات الغريزية</p>
+</div>
+</div>
+<!-- Ego Representation (Center) -->
+<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 rounded-full ego-circle flex items-center justify-center shadow-lg z-10 border-4 border-white">
+<div class="text-center">
+<i class="fas fa-balance-scale text-purple-800 text-3xl mb-2"></i>
+<p class="font-bold text-2xl">الأنا</p>
+<p class="text-sm">مبدأ الواقع</p>
+</div>
+</div>
+<!-- Reality Representation -->
+<div class="absolute bottom-0 left-10 w-48 h-48 rounded-full bg-blue-200 flex items-center justify-center shadow-lg">
+<div class="text-center">
+<i class="fas fa-globe text-blue-500 text-3xl mb-2"></i>
+<p class="font-bold text-xl">الواقع</p>
+<p class="text-sm">القيود الخارجية</p>
+</div>
+</div>
+<!-- Connecting Lines -->
+<div class="absolute top-1/4 left-1/2 w-32 h-32 ego-connector transform -translate-x-1/2"></div>
+<div class="absolute bottom-1/4 left-1/2 w-32 h-32 ego-connector transform -translate-x-1/2"></div>
+</div>
+</div>
+<!-- Right Side: Information -->
+<div class="w-1/2 pr-8">
+<!-- Main Definition -->
+<div class="bg-white bg-opacity-70 rounded-lg p-6 mb-6 shadow-md">
+<p class="text-xl leading-relaxed">
+<span class="font-bold text-purple-900">الأنا</span> تتطور من الهو وتعمل كوسيط بين رغبات الهو غير المنطقية وقيود العالم الخارجي (الواقع).
+                    </p>
+</div>
+<!-- Key Points -->
+<div class="space-y-4">
+<div class="principle-card rounded-lg p-4 flex items-start shadow-md" style="background-color: rgba(255, 255, 255, 0.7);">
+<div class="bg-purple-800 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+<i class="fas fa-check text-white"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg">مبدأ الواقع</h3>
+<p>تعمل الأنا وفقًا لمبدأ الواقع، وتسعى لتحقيق رغبات الهو بطرق واقعية ومقبولة اجتماعيًا.</p>
+</div>
+</div>
+<div class="principle-card rounded-lg p-4 flex items-start shadow-md" style="background-color: rgba(255, 255, 255, 0.7);">
+<div class="bg-purple-800 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+<i class="fas fa-lightbulb text-white"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg">الوعي بالعواقب</h3>
+<p>تأخذ الأنا في الاعتبار العواقب المحتملة للأفعال قبل التصرف، على عكس الهو.</p>
+</div>
+</div>
+<div class="principle-card rounded-lg p-4 flex items-start shadow-md" style="background-color: rgba(255, 255, 255, 0.7);">
+<div class="bg-purple-800 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+<i class="fas fa-sync-alt text-white"></i>
+</div>
+<div>
+<h3 class="font-bold text-lg">التوازن النفسي</h3>
+<p>تسعى الأنا لتحقيق التوازن بين متطلبات الهو والواقع والأنا العليا (الضمير).</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="absolute bottom-5 left-5" style="visibility: hidden;">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٨/١٠</span>
+</div>
+</div>
+</div>
+
+<!-- Page 9: The Superego -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; overflow: hidden; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-4">
+<h1 class="title text-4xl text-center mb-2">مكونات الجهاز النفسي - الأنا العليا</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex flex-col space-y-4">
+<!-- Definition Box -->
+<div class="content-box p-4">
+<div class="flex items-start">
+<div class="icon-circle rounded-full flex items-center justify-center ml-4 mt-1">
+<i class="fas fa-balance-scale text-white text-xl"></i>
+</div>
+<div>
+<h2 class="text-2xl font-bold mb-1 text-purple-900">ما هي الأنا العليا؟</h2>
+<p class="text-xl leading-relaxed">تمثل الأنا العليا الضمير والقيم الأخلاقية والمثل العليا التي يكتسبها الفرد من الوالدين والمجتمع. تسعى الأنا العليا للكمال وتفرض الشعور بالذنب أو الفخر على الأنا.</p>
+</div>
+</div>
+</div>
+<!-- Visual Representation of Superego -->
+<div class="superego-container" id="superego-visual"></div>
+<!-- Key Features -->
+<div class="grid grid-cols-3 gap-4">
+<!-- Feature 1 -->
+<div class="feature-box rounded-lg p-3 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-2">
+<i class="fas fa-book text-white text-lg"></i>
+</div>
+<h3 class="font-bold text-lg mb-1">المثل والقيم</h3>
+<p>تحمل المعايير الأخلاقية والمثل العليا المكتسبة من الوالدين والمجتمع</p>
+</div>
+<!-- Feature 2 -->
+<div class="feature-box rounded-lg p-3 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-2">
+<i class="fas fa-gavel text-white text-lg"></i>
+</div>
+<h3 class="font-bold text-lg mb-1">الضمير</h3>
+<p>تعمل كضمير داخلي يحكم على الأفكار والأفعال ويفرض الشعور بالذنب عند المخالفة</p>
+</div>
+<!-- Feature 3 -->
+<div class="feature-box rounded-lg p-3 flex flex-col items-center text-center shadow-md" style="background-color: #98FB98;">
+<div class="icon-circle rounded-full flex items-center justify-center mb-2">
+<i class="fas fa-trophy text-white text-lg"></i>
+</div>
+<h3 class="font-bold text-lg mb-1">السعي للكمال</h3>
+<p>تدفع الشخص نحو السلوكيات المثالية وتمنح الشعور بالفخر عند تحقيق المعايير الأخلاقية</p>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-right mt-2">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">٩/١٠</span>
+</div>
+</div>
+<script>
+        // D3.js visualization for Superego
+        const container = d3.select("#superego-visual");
+        if (container.node()) {
+            const width = container.node().getBoundingClientRect().width;
+            const height = container.node().getBoundingClientRect().height;
+            
+            const svg = container.append("svg")
+                .attr("width", width)
+                .attr("height", height)
+                .attr("viewBox", `0 0 ${width} ${height}`);
+                
+            // Background shapes
+            svg.append("rect")
+                .attr("x", width/2 - 300)
+                .attr("y", 10)
+                .attr("width", 600)
+                .attr("height", 140)
+                .attr("rx", 15)
+                .attr("fill", "#ffffff")
+                .attr("stroke", "#4B0082")
+                .attr("stroke-width", 2)
+                .attr("opacity", 0.3);
+                
+            // Superego Circle
+            svg.append("circle")
+                .attr("cx", width/2)
+                .attr("cy", 90)
+                .attr("r", 70)
+                .attr("fill", "#4B0082")
+                .attr("opacity", 0.8);
+                
+            // Label
+            svg.append("text")
+                .attr("x", width/2)
+                .attr("y", 90)
+                .attr("text-anchor", "middle")
+                .attr("dominant-baseline", "middle")
+                .attr("fill", "white")
+                .attr("font-size", "24px")
+                .attr("font-weight", "bold")
+                .text("الأنا العليا");
+                
+            // Influence arrows and labels
+            const influences = [
+                { label: "الوالدين", x: width/2 - 180, y: 50, angle: 135 },
+                { label: "المجتمع", x: width/2 + 180, y: 50, angle: 45 },
+                { label: "الأخلاق", x: width/2 - 180, y: 130, angle: 225 },
+                { label: "القيم", x: width/2 + 180, y: 130, angle: 315 }
+            ];
+            
+            influences.forEach(influence => {
+                // Arrow
+                const endX = width/2 + 60 * Math.cos(influence.angle * Math.PI / 180);
+                const endY = 90 + 60 * Math.sin(influence.angle * Math.PI / 180);
+                
+                svg.append("line")
+                    .attr("x1", influence.x)
+                    .attr("y1", influence.y)
+                    .attr("x2", endX)
+                    .attr("y2", endY)
+                    .attr("stroke", "#4B0082")
+                    .attr("stroke-width", 2)
+                    .attr("marker-end", "url(#arrow)");
+                    
+                // Label
+                svg.append("text")
+                    .attr("x", influence.x)
+                    .attr("y", influence.y)
+                    .attr("text-anchor", "middle")
+                    .attr("dominant-baseline", "middle")
+                    .attr("fill", "#1A1A1A")
+                    .attr("font-size", "18px")
+                    .attr("font-weight", "bold")
+                    .text(influence.label);
+            });
+            
+            // Arrow marker definition
+            svg.append("defs").append("marker")
+                .attr("id", "arrow")
+                .attr("viewBox", "0 -5 10 10")
+                .attr("refX", 8)
+                .attr("refY", 0)
+                .attr("markerWidth", 6)
+                .attr("markerHeight", 6)
+                .attr("orient", "auto")
+                .append("path")
+                .attr("d", "M0,-5L10,0L0,5")
+                .attr("fill", "#4B0082");
+        }
+    </script>
+</div>
+
+<!-- Page 10: Interaction and Conflict -->
+<div class="page">
+<div class="slide-container flex flex-col" style="background-color: #E6E6FA; overflow: hidden; min-height: 720px;">
+<!-- Title Section -->
+<div class="mb-4">
+<h1 class="title text-4xl text-center mb-2">التفاعل والصراع بين المكونات</h1>
+<div class="w-32 h-1 bg-purple-800 mx-auto"></div>
+</div>
+<!-- Main Content -->
+<div class="flex-grow flex flex-col">
+<!-- Interaction Diagram -->
+<div class="relative mb-4" id="interaction-diagram">
+<!-- Component Cards -->
+<div class="absolute top-0 right-16 component-card bg-red-200 rounded-lg p-3 w-64 shadow-md border-2 border-red-400">
+<div class="flex items-center mb-1">
+<div class="bg-red-500 rounded-full h-10 w-10 flex items-center justify-center mr-3">
+<i class="fas fa-fire text-white"></i>
+</div>
+<h3 class="font-bold text-xl">الهو (Id)</h3>
+</div>
+<p class="text-sm">الرغبات والدوافع الغريزية</p>
+</div>
+<div class="absolute bottom-0 right-1/2 transform translate-x-1/2 component-card bg-yellow-100 rounded-lg p-3 w-64 shadow-md border-2 border-yellow-300">
+<div class="flex items-center mb-1">
+<div class="bg-yellow-500 rounded-full h-10 w-10 flex items-center justify-center mr-3">
+<i class="fas fa-balance-scale text-white"></i>
+</div>
+<h3 class="font-bold text-xl">الأنا (Ego)</h3>
+</div>
+<p class="text-sm">الوسيط بين الهو والواقع</p>
+</div>
+<div class="absolute top-0 left-16 component-card bg-blue-100 rounded-lg p-3 w-64 shadow-md border-2 border-blue-300">
+<div class="flex items-center mb-1">
+<div class="bg-blue-500 rounded-full h-10 w-10 flex items-center justify-center mr-3">
+<i class="fas fa-gavel text-white"></i>
+</div>
+<h3 class="font-bold text-xl">الأنا العليا (Superego)</h3>
+</div>
+<p class="text-sm">القيم الأخلاقية والمثل العليا</p>
+</div>
+<!-- Connection Lines -->
+<div class="connection-line absolute" style="width: 150px; height: 2px; top: 50px; right: 270px; transform: rotate(0deg);"></div>
+<div class="connection-line absolute" style="width: 150px; height: 2px; top: 50px; left: 270px; transform: rotate(0deg);"></div>
+<div class="connection-line absolute" style="width: 200px; height: 2px; top: 100px; right: 130px; transform: rotate(45deg);"></div>
+<div class="connection-line absolute" style="width: 200px; height: 2px; top: 100px; left: 130px; transform: rotate(-45deg);"></div>
+<!-- Conflict Icons -->
+<div class="conflict-arrow absolute top-16 right-1/2 transform translate-x-1/2">
+<i class="fas fa-bolt text-purple-700"></i>
+</div>
+</div>
+<!-- Explanatory Text -->
+<div class="content-box p-4 mb-4">
+<h2 class="text-2xl font-bold mb-2 text-purple-900">الصراع والتوازن النفسي</h2>
+<p class="text-lg mb-3">
+                    الصراع المستمر بين مكونات الجهاز النفسي الثلاثة هو ما يشكل شخصية الفرد. تحاول الأنا التوفيق بين المطالب للهو والأنا العليا ومتطلبات الواقع.
+                </p>
+<div class="flex items-center bg-purple-100 p-3 rounded-lg">
+<div class="mr-3 text-2xl text-purple-800">
+<i class="fas fa-exclamation-triangle"></i>
+</div>
+<p class="text-sm">
+                        ينشأ القلق عندما تفشل الأنا في التوسط بين المطالب للهو، والقيود الأخلاقية، ومتطلبات الواقع.
+                    </p>
+</div>
+</div>
+<!-- Conclusion Box -->
+<div class="bg-green-100 border-r-4 border-green-500 p-3 rounded-lg">
+<div class="flex items-center">
+<div class="text-xl text-green-600 ml-3">
+<i class="fas fa-lightbulb"></i>
+</div>
+<p class="font-medium text-sm">
+                        فهم هذه الديناميكية بين مكونات الجهاز النفسي يساعدنا على فهم أسباب السلوك البشري وكيفية تطور الاضطرابات النفسية.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Slide Number -->
+<div class="text-left mt-2">
+<span class="bg-purple-800 text-white px-3 py-1 rounded-full text-sm">١٠/١٠</span>
+</div>
+</div>
+</div>
+
+</body>
+</html>
